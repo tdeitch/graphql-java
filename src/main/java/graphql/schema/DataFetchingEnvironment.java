@@ -82,7 +82,7 @@ public interface DataFetchingEnvironment extends IntrospectionDataFetchingEnviro
     <T> T getContext();
 
     /**
-     * This returns a context object that parent fields may have returned returned
+     * This returns a context object that parent fields may have returned
      * via {@link graphql.execution.DataFetcherResult#getLocalContext()} which can be used to pass down extra information to
      * fields beyond the normal {@link #getSource()}
      * <p>
